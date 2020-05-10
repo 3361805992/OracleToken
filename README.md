@@ -9,4 +9,4 @@
 
 * Compiled on MacOS, Linux and *BSD in X86_64 platform.
 
-* JiaGuFu.c is a enhanced version of this demo
+* JiaGuFu.c is a enhanced version of this demo.

@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-    if(argv[1][0] == '-' && (argv[1][1] == 'C' || argv[1][1] == 'c' || argv[1][1] == 'P' || argv[1][1] == 'p'))
+    if(argv[1][0] == '-' && (argv[1][1] == 'c' || argv[1][1] == 'p' || argv[1][1] == 'C' || argv[1][1] == 'P'))
     {
 // get the Lucky Number
         unsigned int uiLuckyNumber = 0;
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
         close(iPlaintextOrCiphertext);
 
-        if(argv[1][1] == 'C' || argv[1][1] == 'c')
+        if(argv[1][1] == 'c' || argv[1][1] == 'C')
         {
             pucCiphertextOrPlaintext = (unsigned char*)malloc(2 * ulFileSize);
 
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 
             ulFileSize *= 2;
         }
-        else if(argv[1][1] == 'P' || argv[1][1] == 'p')
+        else if(argv[1][1] == 'p' || argv[1][1] == 'P')
         {
             ulFileSize /= 2;
 

@@ -38,7 +38,7 @@ void changePassword(unsigned short *pusJiaGuFu, unsigned char *pucPassword, unsi
 
 int main(int argc, char *argv[])
 {
-    if(argv[1][0] == '-' && (argv[1][1] == 'C' || argv[1][1] == 'c' || argv[1][1] == 'P' || argv[1][1] == 'p'))
+    if(argv[1][0] == '-' && (argv[1][1] == 'c' || argv[1][1] == 'p' || argv[1][1] == 'C' || argv[1][1] == 'P'))
     {
 // any password length
         unsigned long  long ulPasswordLength = 0;

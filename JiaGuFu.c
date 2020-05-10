@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     if(argv[1][0] == '-' && (argv[1][1] == 'c' || argv[1][1] == 'p' || argv[1][1] == 'C' || argv[1][1] == 'P'))
     {
 // any password length
-        unsigned long  long ulPasswordLength = 0;
+        unsigned long long ulPasswordLength = -1;
 
         while(argv[4][++ulPasswordLength]);
 
